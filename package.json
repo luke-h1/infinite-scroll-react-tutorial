@@ -1,0 +1,33 @@
+{
+  "name": "infinite-scroll-react-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke-h1/infinite-scroll-react-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luke-h1/infinite-scroll-react-tutorial/issues"
+  },
+  "homepage": "https://github.com/luke-h1/infinite-scroll-react-tutorial#readme",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "universal-config": "^0.3.0",
+    "unsplash-js": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
